@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -A config_folders_to_backup "keepassxc" "ncspot" "nvim" "rofi" "tint2"
+set -A config_folders_to_backup "gtk-3.0" "keepassxc" "ncspot" "nvim" "rofi" "tint2"
 
 for config_folder in ${config_folders_to_backup[@]}
 do
