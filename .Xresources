@@ -1,0 +1,31 @@
+URxvt.termName: rxvt-unicode-256color
+URxvt.font: xft:JetBrains Mono:size=13, xft:mononoki Nerd Font:style=Regular
+URxvt.scrollBar: false
+URxvt.internalBorder: 10
+URxvt*background: #0B151D
+URxvt*foreground: #F0F0F0
+
+! Blacks
+URxvt*color0: #161821
+URxvt*color8: #6B7089
+! Reds
+URxvt*color1: #E27878
+URxvt*color9: #E98989
+! Greens
+URxvt*color2: #B4BE82
+URxvt*color10: #C0CA8E
+! Yellows
+URxvt*color3: #E2A478
+URxvt*color11: #E9B189
+! Blues
+URxvt*color4: #84A0C6
+URxvt*color12: #91ACD1
+! Purples
+URxvt*color5: #91ACD1
+URxvt*color13: #95C4CE
+! Cyans
+URxvt*color6: #ADA0D3
+URxvt*color14: #ADA0D3
+! Whites
+URxvt*color7: #C6C8D1
+URxvt*color15: #D2D4DE

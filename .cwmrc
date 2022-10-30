@@ -1,0 +1,49 @@
+borderwidth 10
+gap 54 15 15 15
+
+fontname "JetBrains Mono"
+color activeborder "#404B66"
+color inactiveborder "#000000"
+color font "#000000"
+
+unbind-key all
+bind-key 4-Return "urxvt"
+bind-key 4-space "rofi -show drun"
+bind-key 4-w window-close
+bind-key Print "scrot 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/screenshots && mv $f ~/screenshots && xclip -selection clipboard -t image/png -i ~/screenshots/`ls -1 -t ~/screenshots | head -1`'"
+bind-key S-Print "scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/screenshots && mv $f ~/screenshots && xclip -selection clipboard -t image/png -i ~/screenshots/`ls -1 -t ~/screenshots | head -1`'"
+bind-key 4S-l lock
+bind-key 4S-r restart
+bind-key 4S-q quit
+
+bind-key 4-1 group-only-1
+bind-key 4-2 group-only-2
+bind-key 4-3 group-only-3
+bind-key 4-4 group-only-4
+bind-key 4-5 group-only-5
+bind-key 4-6 group-only-6
+
+bind-key 4S-1 window-movetogroup-1
+bind-key 4S-2 window-movetogroup-2
+bind-key 4S-3 window-movetogroup-3
+bind-key 4S-4 window-movetogroup-4
+bind-key 4S-5 window-movetogroup-5
+bind-key 4S-6 window-movetogroup-6
+
+bind-key 4S-t window-htile
+bind-key 4-t window-vtile
+bind-key 4-f window-fullscreen
+bind-key 4-m window-maximize
+
+bind-key 4-Tab window-cycle
+bind-key 4S-Tab window-rcycle
+bind-key 4-Right group-cycle
+bind-key 4-Left group-rcycle
+
+unbind-mouse all
+bind-mouse 4-1 window-move
+bind-mouse 4-3 window-resize
+
+autogroup 2 "firefox-default"
+
+sticky yes

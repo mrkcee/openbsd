@@ -1,0 +1,5 @@
+library_tabs = ["artists", "albums", "playlists"]
+hide_display_names = true
+bitrate = 320
+gapless = true
+volnorm = false
