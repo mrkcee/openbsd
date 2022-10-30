@@ -22,6 +22,6 @@ do
 done
 
 echo "Backing up manually installed packages..."
-pkg_info -m > ./packages.txt
+pkg_info -mz > ./installed_packages
 
 echo "Backup completed."
