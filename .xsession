@@ -5,6 +5,8 @@ if [ -x /usr/bin/ssh-agent ]; then
   eval $(ssh-agent -s)
 fi
 
+export LC_CTYPE="en_US.UTF-8"
+
 xrdb -load .Xresources
 xmodmap ~/.Xmodmap
 xset s 0 dpms 0 0 0
