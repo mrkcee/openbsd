@@ -1,0 +1,35 @@
+amdgpu-firmware-20220913 firmware binary images for amdgpu(4) driver
+bspwm-0.9.10p0      binary space partitioning window manager
+colorls-6.9         ls(1) that can use color to display file attributes
+dbus-1.14.4v0       message bus system
+feh-3.8             lightweight image viewer
+ffmpeg-4.4.2p3v1    audio/video converter and streamer
+fira-fonts-4.202p0v0 Firefox OS typeface
+firefox-106.0.2     Firefox web browser
+freefont-ttf-20120503 free UCS outline fonts
+git-2.38.1          distributed version control system
+htop-3.2.1          interactive process viewer
+icu4c-72.1v0        International Components for Unicode
+iwx-firmware-20220110p0 firmware binary images for iwx(4) driver
+keepassxc-2.7.3     management tool for password and sensitive data
+lxappearance-0.6.3p2 GTK 2 and 3 Theme Switcher from LXDE
+mupdf-1.20.3p0      graphic library, pdf parser, viewer and utilities
+ncspot-0.11.1p0     ncurses Spotify client
+neofetch-7.1.0p0    system information tool written in bash
+neovim-0.7.2        continuation and extension of Vim
+noto-cjk-20220127   east asian fonts for the noto font family
+openra-20210321p0   open-source real-time strategy game engine
+papirus-icon-theme-20220302 papirus icon theme
+pcmanfm-1.3.2       fast and lightweight file manager
+quirks-6.42         exceptions to pkg_add rules and cache
+ranger-1.9.3p2      minimalistic console file manager
+roboto-fonts-2.138v0 sans-serif typeface family of Android OS
+rofi-1.7.5          window switcher, run dialog and dmenu replacement
+rxvt-unicode-9.30p0 clone of rxvt with Unicode and Xft support
+scrot-1.7           commandline screen capture util
+sxhkd-0.6.2p0       simple X hotkey daemon
+tint2-16.7p0        freedesktop-compliant panel
+unzip-6.0p16        extract, list & test files in a ZIP archive
+vlc-3.0.17.3p0      VideoLAN client; multimedia player
+vmm-firmware-1.14.0p0 firmware binary images for vmm(4) driver
+xclip-0.13p1        command line interface to X selections

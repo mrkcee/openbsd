@@ -21,4 +21,7 @@ do
 	cp -r $HOME/$home_file .
 done
 
+echo "Backing up manually installed packages..."
+pkg_info -m > ./packages.txt
+
 echo "Backup completed."
