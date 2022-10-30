@@ -7,8 +7,9 @@ Configure /etc/:
 - fstab (add softdep, noatime)
 - rc.conf.local (set sndiod_flag=-f rsnd/1)
 
-Install packages:
+Restore packages and configurations:
 - Install git
 - Clone repo
 - pkg_add -l installed_packages
+- Restore configs
 
