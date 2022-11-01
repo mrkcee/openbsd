@@ -1,5 +1,6 @@
 colorls--
 dbus--
+dialog--
 feh--
 ffmpeg--
 fira-fonts--
@@ -24,7 +25,6 @@ roboto-fonts--
 rofi--
 rxvt-unicode--
 scrot--
-sxhkd--
 tint2--
 unzip--
 vlc--

@@ -1,7 +1,8 @@
 borderwidth 10
 gap 54 15 15 15
+snapdist 5
 
-fontname "JetBrains Mono"
+#fontname "JetBrains Mono:pixelsize=13"
 color activeborder "#404B66"
 color inactiveborder "#000000"
 color font "#000000"
@@ -15,6 +16,7 @@ bind-key S-Print "scrot -s 'screenshot_%Y%m%d_%H%M%S.png' -e 'mkdir -p ~/screens
 bind-key 4S-l lock
 bind-key 4S-r restart
 bind-key 4S-q quit
+bind-key 4S-p "urxvt -e /home/mrkcee/.config/common_scripts/powermenu.sh"
 
 bind-key 4-1 group-only-1
 bind-key 4-2 group-only-2

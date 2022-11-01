@@ -1,4 +1,6 @@
 alias ls='colorls -F -G'
+alias poweroff='doas /sbin/shutdown -p now'
+alias reboot='doas /sbin/shutdown -r now'
 
 export BROWSER="firefox"
 
@@ -18,4 +20,4 @@ export end="${e}[0m"
 export HOST=`hostname`
 export tilde="~"
 export one="1"
-export PS1='${green}${LOGNAME}${white}@${HOST}:${blue}${tilde[0${one#${PWD##$HOME*}1}]}${PWD##$HOME}${white}> ${end}'
+export PS1='${green}${LOGNAME}${white}@${HOST} ${blue}${tilde[0${one#${PWD##$HOME*}1}]}${PWD##$HOME}${white}> ${end}'

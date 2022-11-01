@@ -1,7 +1,7 @@
 URxvt.termName: rxvt-unicode-256color
 URxvt.font: xft:JetBrains Mono:size=13, xft:mononoki Nerd Font:style=Regular
 URxvt.scrollBar: false
-URxvt.internalBorder: 10
+URxvt.internalBorder: 15
 URxvt*background: #0B151D
 URxvt*foreground: #F0F0F0
 

@@ -8,6 +8,7 @@ fi
 
 # Set locale
 export LC_CTYPE="en_US.UTF-8"
+export LANG="en_US.UTF-8"
 
 # Load X configs for URvxt
 xrdb -load .Xresources
