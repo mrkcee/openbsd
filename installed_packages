@@ -9,6 +9,7 @@ freefont-ttf--
 git--
 htop--
 icu4c--
+jdk--%11
 keepassxc--
 lxappearance--
 mupdf--
@@ -19,11 +20,13 @@ noto-cjk--
 openra--
 papirus-icon-theme--
 pcmanfm--
+py3-pip--
 quirks--
 ranger--
 roboto-fonts--
 rofi--
 rxvt-unicode--
+scala--
 scrot--
 tint2--
 unzip--

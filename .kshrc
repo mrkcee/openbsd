@@ -8,6 +8,9 @@ export LSCOLORS=exgxxxxxcxxxxxxxxxxxxx
 
 export MOZ_ACCELERATED=1
 
+export JAVA_HOME=/usr/local/jdk-11
+export PATH=/bin:/usr/bin:/sbin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin:/usr/local/spark/bin:$JAVA_HOME/bin
+
 export e="`echo x | tr x '\033'`"
 export red="${e}[31m"
 export green="${e}[32m"

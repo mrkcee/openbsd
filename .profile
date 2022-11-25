@@ -5,6 +5,8 @@
 # Disable core dumps
 ulimit -Sc 0
 
-ENV=.kshrc
-PATH=$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin
-export PATH HOME TERM
+export JAVA_HOME=/usr/local/jdk-11
+
+export ENV=.kshrc
+export PATH=$HOME/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin:$JAVA_HOME/bin
+export HOME TERM
